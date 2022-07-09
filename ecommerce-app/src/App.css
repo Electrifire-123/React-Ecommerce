@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+QLD+Beginner:wght@500&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  box-sizing: border-box;
+  text-align: center;
+}
+
+header{
+  margin: 10px;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  border-bottom: 1px solid black;
+}
+
+.logo{
+  font-family: 'Edu QLD Beginner', cursive;
+  font-size: 36px;
+  margin: 20px;
+}
+
+header ul{
+  display: flex;
+  margin: 0 10px;
+  justify-content: space-around;
+  align-items: center;
+}
+
+header ul li{
+  text-decoration: none;
+  list-style-type: none;
+  display: flex;
+  margin-right: 10px;
+  justify-content: space-around;
+}
+
+.card-container{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.card_main{
+  display: flex;
+  justify-content: center;
+  flex-flow: column;
+  background-color:#f4f4f4;
+  width: 200px;
+  padding: 20px;
+}
+.card_img{
+  width: 200px;
+  height: 200px;
+}
+.card_img img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.card_details{
+  display: flex;
+  flex-flow: column;
+}
+
+.buynow{
+  color: red;
+  text-decoration: none ;
+  background-color: #ec8e35;
+  border-radius: 20px;
+}
+
+
+.button {
+  width: 30%;
+  min-width: 100px;
+  padding: 10px;
+  margin: 5px 10px;
+  border-radius: 20px;
+  border: 1px solid red;
+  background-color: #ec8e35;
+  
+}
+input{
+  width: 80%;
+  height: 20px;
+  padding: 10px;
+  margin: 5px 10px;
+  border-radius: 20px;
+  border: 1px solid red;
+}
